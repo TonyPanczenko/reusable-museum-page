@@ -13,8 +13,7 @@
         <component
           :is="badgeComponent"
           class="museum-listings__badge"
-        >
-        </component>
+        />
       </li>
     </ul>
   </div>
@@ -84,11 +83,11 @@ export default {
           }
         },
         {
-          date: "2020-07-05 4:10:00",
+          date: "1990-01-01 4:10:00",
           description: "A meteor shower is a celestial event in which a number of meteors are observed to radiate, or originate, from one point in the night sky.",
-          id: 12,
+          id: 999,
           image: "",
-          name: "Meteor showers",
+          name: "Testy test",
           news: [
             {
               title: "The Lyrids will peak at on April 21-22 2021, at night"
@@ -99,7 +98,8 @@ export default {
             }
           ],
           Species: "Dinosaur Dinosaurus",
-          Location: "Africa"
+          Location: "Africa",
+          "Random extra heading": "I am visible!"
         }
       ],
       spacePartners: {
@@ -107,16 +107,7 @@ export default {
           date: "2020-06-01 11:45:00",
           description: "The Mauna Kea Observatories (MKO) are a number of independent astronomical research facilities and large telescope observatories that are located at the summit of Mauna Kea on the Big Island of Hawaiʻi, United States.",
           image: "",
-          name: "Mauna Kea Observatories",
-          news: [
-            {
-              title: "The Lyrids will peak at on April 21-22 2021, at night"
-            },
-            {
-              date: "2020-08-18 18:00:00",
-              title: "Attend our talk about Jupiter with Dr. Hogarth"
-            }
-          ]
+          name: "Mauna Kea Observatories"
         }
       },
       sortNewestFirst: true
